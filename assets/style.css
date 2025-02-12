@@ -1,0 +1,32 @@
+/* Container for the marquees */
+.marquee-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Positioning for left and right edges */
+.marquee-left { left: 0; }
+.marquee-right { right: 0; }
+
+/* Keyframes for vertical scrolling */
+@keyframes marquee-vertical {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+/* Content styling with vertical scrolling */
+.marquee-content {
+  display: flex;
+  flex-direction: column;
+  animation: marquee-vertical 20s linear infinite;
+}
+
+/* Style for the images inside the marquee */
+.marquee-content img {
+  width: 100%;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,124 @@
+[
+    {
+      "title": "The Shawshank Redemption",
+      "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "genres": ["Drama", "Crime"],
+      "poster_path": "the_shawshank_redemption.jpg",
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSf1DK32xKMQzqSl8wnY1BLVu_gdwsRYzVSNM6A03r6c-fEwrif8raKzkFRuerw1KHdDICvOw"
+    },
+    {
+      "title": "The Godfather",
+      "summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "genres": ["Crime", "Drama"],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F9hpABISwNl4sXh8a2lpL-EoQ7EUkDYicQ&s"
+    },
+    {
+      "title": "The Dark Knight",
+      "summary": "When the menace known as the Joker emerges, he creates chaos in Gotham, forcing Batman to confront his own limitations.",
+      "genres": ["Action", "Crime", "Drama"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Pulp Fiction",
+      "summary": "The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "genres": ["Crime", "Drama"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Forrest Gump",
+      "summary": "The presidencies of Kennedy and Johnson, the Vietnam War, and more all unfold through the perspective of an Alabama man with a low IQ.",
+      "genres": ["Drama", "Romance"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "Inception",
+      "summary": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "The Matrix",
+      "summary": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+      "genres": ["Action", "Sci-Fi"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "Fight Club",
+      "summary": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much more.",
+      "genres": ["Drama"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "summary": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring.",
+      "genres": ["Adventure", "Fantasy"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "summary": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, and two droids to save the galaxy from the Empire's world-destroying battle station.",
+      "genres": ["Action", "Adventure", "Fantasy"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "summary": "A young FBI cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer.",
+      "genres": ["Crime", "Drama", "Thriller"],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXD5EzCfvxKSqbAfp8BlsWjDQumsX0S9rYVg&s"
+    },
+    {
+      "title": "Se7en",
+      "summary": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+      "genres": ["Crime", "Drama", "Mystery"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Interstellar",
+      "summary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "genres": ["Adventure", "Drama", "Sci-Fi"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "The Green Mile",
+      "summary": "The lives of guards on Death Row are affected by one of their charges: a man accused of murder who has a mysterious gift.",
+      "genres": ["Crime", "Drama", "Fantasy"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Gladiator",
+      "summary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "genres": ["Action", "Adventure", "Drama"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "Titanic",
+      "summary": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "genres": ["Drama", "Romance"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "title": "Jurassic Park",
+      "summary": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+      "genres": ["Adventure", "Sci-Fi", "Thriller"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "The Lion King",
+      "summary": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+      "genres": ["Animation", "Adventure", "Drama"],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNqbrAy_UBXNUgSKos8NmxRU0DK10Iw5ZpDg&s"
+    },
+    {
+      "title": "Back to the Future",
+      "summary": "Marty McFly, a teenager, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, Doc Brown.",
+      "genres": ["Adventure", "Comedy", "Sci-Fi"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Avatar",
+      "summary": "A paraplegic Marine dispatched to the moon Pandora becomes torn between following his orders and protecting the world he feels is his home.",
+      "genres": ["Action", "Adventure", "Fantasy"],
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_.jpg"
+    }
+  ]
+  
