@@ -31,17 +31,17 @@ The model.py module loads the Sentence-BERT model "all-MiniLM-L6-v2" to compute 
 ## Project Structure
 
 movie-recommender/ 
-├── preloaded_movies.json # JSON file containing preloaded movie data 
-├── data.py # Loads and processes JSON movie data 
-├── api.py # Handles TMDB API integration for movie details 
-├── model.py # Loads Sentence-BERT model, computes embeddings, sets up FAISS index, and calculates similarity 
-├── ui.py # Main Streamlit application (frontend) 
-├── assets/ 
-│ └── style.css # External CSS for styling marquees and other UI elements 
-├── config.py # Handling yaml config file(s) 
-├── config.yml # For constants like paths
-├── requirements.txt # List of Python dependencies 
-└── README.md # This file
+├── preloaded_movies.json # JSON file containing preloaded movie data <dr>
+├── data.py # Loads and processes JSON movie data <dr>
+├── api.py # Handles TMDB API integration for movie details <dr>
+├── model.py # Loads Sentence-BERT model, computes embeddings, sets up FAISS index, and calculates similarity <dr> 
+├── ui.py # Main Streamlit application (frontend) <dr>
+├── assets/ <dr>
+│ └── style.css # External CSS for styling marquees and other UI elements <dr>
+├── config.py # Handling yaml config file(s) <dr>
+├── config.yml # For constants like paths <dr>
+├── requirements.txt # List of Python dependencies <dr>
+└── README.md # This file <dr>
 
 ## Setup Instructions
 
