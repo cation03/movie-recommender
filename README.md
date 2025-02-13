@@ -59,7 +59,7 @@ The api.py module handles all interactions with the TMDB API. It searches for a 
 The model.py module loads the Sentence-BERT model "all-MiniLM-L6-v2" to compute embeddings of movie summaries. These embeddings are normalized and indexed with FAISS to enable quick retrieval of similar movies.
 
 **Embedding Model Selection:**
-- The Sentence-BERT model ("all-MiniLM-L6-v2") is used to convert movie summaries into high-dimensional vectors (embeddings). We use Sentence-BERT (all-MiniLM-L6-v2) because it strikes a balance between speed and accuracy for semantic similarity tasks. It’s lightweight and efficient for real-time applications like this recommender.
+- The Sentence-BERT model ("all-MiniLM-L6-v2") is used to convert movie summaries into high-dimensional vectors (embeddings). We use Sentence-BERT because it strikes a balance between speed and accuracy for semantic similarity tasks. It’s lightweight and efficient for real-time applications like this recommender (also because I didn't have an openai api key :P)
 
 - Each embedding is normalized so that the cosine similarity (computed as the inner product of normalized vectors) accurately reflects semantic similarity.
 
