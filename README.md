@@ -27,27 +27,27 @@ This project is a movie recommendation system built with Python and Streamlit. I
 ```
    movie-recommender/ 
    
-   ├── preloaded_movies.json # JSON file containing preloaded movie data <br/>
+   ├── preloaded_movies.json # JSON file containing preloaded movie data
    
-   ├── data.py # Loads and processes JSON movie data <br/>
+   ├── data.py # Loads and processes JSON movie data
    
-   ├── api.py # Handles TMDB API integration for movie details <br/>
+   ├── api.py # Handles TMDB API integration for movie details
    
-   ├── model.py # Loads Sentence-BERT model, computes embeddings, sets up FAISS index, and calculates similarity <br/>
+   ├── model.py # Loads Sentence-BERT model, computes embeddings, sets up FAISS index, and calculates similarity
    
-   ├── ui.py # Main Streamlit application (frontend) <br/>
+   ├── ui.py # Main Streamlit application (frontend)
    
-   ├── assets/ <br/>
+   ├── assets/
    
-   │ └── style.css # External CSS for styling marquees and other UI elements <br/>
+   │ └── style.css # External CSS for styling marquees and other UI elements 
    
-   ├── config.py # Handling yaml config file(s) <br/>
+   ├── config.py # Handling yaml config file(s)
    
-   ├── config.yml # For constants like paths <br/>
+   ├── config.yml # For constants like paths
    
-   ├── requirements.txt # List of Python dependencies <br/>
+   ├── requirements.txt # List of Python dependencies
    
-   └── README.md # This file <br/>
+   └── README.md # This file
 ```
 
 ## Features
