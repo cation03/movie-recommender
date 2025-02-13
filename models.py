@@ -3,7 +3,6 @@ import faiss
 from sentence_transformers import SentenceTransformer
 
 def load_embedding_model():
-    # Use caching or similar strategy if needed
     return SentenceTransformer("all-MiniLM-L6-v2")
 
 model = load_embedding_model()
