@@ -1,0 +1,11 @@
+streamlit
+sentence-transformers
+faiss-cpu
+requests
+numpy
+scikit-learn
+pyyaml
+dotenv
+requests
+numpy
+json
