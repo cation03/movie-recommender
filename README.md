@@ -4,7 +4,7 @@ This project is a movie recommendation system built with Python and Streamlit. I
 
 ## Setup Instructions
 
-1. **Clone the Repository:**
+**1. Clone the Repository:**
 
    ```git clone git@github.com:cation03/movie-recommender.git```
    ```cd movie-recommender```
