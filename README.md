@@ -63,6 +63,10 @@ The model.py module loads the Sentence-BERT model "all-MiniLM-L6-v2" to compute 
 
 - Each embedding is normalized so that the cosine similarity (computed as the inner product of normalized vectors) accurately reflects semantic similarity.
 
+**Interactive Web UI:**  
+  
+- The app is built using Streamlit and includes features like autocomplete suggestions and decorative image marquees.
+
 ## FAISS Index
 
   FAISS was selected because it can handle large datasets efficiently and supports fast approximate nearest neighbor searches, which makes FAISS ideal for real-time recommendation systems where speed and accuracy are crucial.
