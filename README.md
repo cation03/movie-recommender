@@ -11,7 +11,7 @@ This project is a movie recommendation system built with Python and Streamlit. I
    
 **2. Install Dependencies:**
 
-     Make sure you have Python 3.7 or newer installed, then run:
+   Make sure you have Python 3.7 or newer installed, then run:
      
      `pip install -r requirements.txt`
 
