@@ -6,22 +6,22 @@ This project is a movie recommendation system built with Python and Streamlit. I
 
 1. **Clone the Repository:**
 
-   `git clone git@github.com:cation03/movie-recommender.git`
-   `cd movie-recommender`
+   ```git clone git@github.com:cation03/movie-recommender.git```
+   ```cd movie-recommender```
    
 **2. Install Dependencies:**
 
    Make sure you have Python 3.7 or newer installed, then run:
      
-     `pip install -r requirements.txt`
+   ```pip install -r requirements.txt```
 
 **3. Configure Environment Variables:**
 
-     `TMDB_API_KEY=your_tmdb_api_key_here`
+   `TMDB_API_KEY=your_tmdb_api_key_here`
 
 **4. Launch the Streamlit app:**   
 
-      `streamlit run ui.py`
+   `streamlit run ui.py`
 
 ## Project Structure
 ```
