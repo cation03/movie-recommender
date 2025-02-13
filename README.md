@@ -29,7 +29,7 @@ The model.py module loads the Sentence-BERT model "all-MiniLM-L6-v2" to compute 
   - The FAISS index is then searched to retrieve the top similar movies based on **cosine similarity**.
 
 ## Project Structure
-
+`
 movie-recommender/ 
 ├── preloaded_movies.json # JSON file containing preloaded movie data <br>
 ├── data.py # Loads and processes JSON movie data <br>
@@ -42,7 +42,7 @@ movie-recommender/
 ├── config.yml # For constants like paths <br>
 ├── requirements.txt # List of Python dependencies <br>
 └── README.md # This file <br>
-
+`
 ## Setup Instructions
 
 1. **Clone the Repository:**
