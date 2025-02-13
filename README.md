@@ -29,20 +29,20 @@ The model.py module loads the Sentence-BERT model "all-MiniLM-L6-v2" to compute 
   - The FAISS index is then searched to retrieve the top similar movies based on **cosine similarity**.
 
 ## Project Structure
-`
+
 movie-recommender/ 
-├── preloaded_movies.json # JSON file containing preloaded movie data \n <br/>
-├── data.py # Loads and processes JSON movie data \n <br/>
-├── api.py # Handles TMDB API integration for movie details \n <br/>
-├── model.py # Loads Sentence-BERT model, computes embeddings, sets up FAISS index, and calculates similarity \n <br/>
-├── ui.py # Main Streamlit application (frontend) \n <br/>
+├── preloaded_movies.json # JSON file containing preloaded movie data <br/>
+├── data.py # Loads and processes JSON movie data <br/>
+├── api.py # Handles TMDB API integration for movie details <br/>
+├── model.py # Loads Sentence-BERT model, computes embeddings, sets up FAISS index, and calculates similarity <br/>
+├── ui.py # Main Streamlit application (frontend) <br/>
 ├── assets/ <br/>
 │ └── style.css # External CSS for styling marquees and other UI elements <br/>
 ├── config.py # Handling yaml config file(s) <br/>
 ├── config.yml # For constants like paths <br/>
 ├── requirements.txt # List of Python dependencies <br/>
 └── README.md # This file <br/>
-`
+
 ## Setup Instructions
 
 1. **Clone the Repository:**
