@@ -10,12 +10,10 @@ from models import model, compute_embeddings, create_faiss_index, compute_simila
 
 STYLESHEET = config.get("STYLE_CSS")
 
-# Utility function to load external CSS from a file.
 def local_css(file_name):
     with open(file_name, encoding="utf-8") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Load external CSS (make sure assets/style.css exists)
 local_css(STYLESHEET)
 
 # --- Set Up the FAISS Index with Precomputed Embeddings ---
@@ -35,7 +33,6 @@ for url in thumbnails:
     right_marquee_html += f'<img src="{url}" alt="Thumbnail">'
 right_marquee_html += '</div></div>'
 
-# Inject the marquee HTML into the app.
 st.markdown(left_marquee_html + right_marquee_html, unsafe_allow_html=True)
 
 # --- Main Streamlit UI ---
@@ -61,7 +58,6 @@ if movie_query and len(movie_query) >= 3:
 if not movie_query:
     st.info("Please enter a movie name to get recommendations.")
 
-# Check if the selected movie is already in our preloaded data.
 if movie_selected and movie_selected.lower() in [movie["title"].lower() for movie in preloaded_movies]:
     st.error("This movie is already in our database. Please select a different movie.")
 
@@ -76,7 +72,7 @@ if st.button("Find Similar Movies") and movie_selected:
             st.write("**Overview:**", new_summary)
             st.write("**Genres:**", ", ".join(new_genres) if new_genres else "N/A")
             
-            # Compute similarity between the query movie's summary and the preloaded movies.
+            # Compute similarity
             indices, scores = compute_similarity(new_summary, index, model)
             st.markdown("### Top 2 Similar Movies from Database")
             for rank, (idx, score) in enumerate(zip(indices, scores), start=1):
