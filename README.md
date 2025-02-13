@@ -18,6 +18,8 @@ The model.py module loads the Sentence-BERT model "all-MiniLM-L6-v2" to compute 
 
 ## FAISS Index
 
+  FAISS was selected because it can handle large datasets efficiently and supports fast approximate nearest neighbor searches, which makes FAISS ideal for real-time recommendation systems where speed and accuracy are crucial.
+
 - **What is FAISS?**  
   FAISS (Facebook AI Similarity Search) is a library developed for efficient similarity search in high-dimensional spaces.
 
@@ -25,9 +27,6 @@ The model.py module loads the Sentence-BERT model "all-MiniLM-L6-v2" to compute 
   - The normalized embeddings are added to a FAISS index created with an inner-product metric.
   - When a new query (movie summary) is provided, its embedding is computed and normalized.
   - The FAISS index is then searched to retrieve the top similar movies based on **cosine similarity**.
-
-## Design Rationale
-  FAISS was selected because it can handle large datasets efficiently and supports fast approximate nearest neighbor searches, which makes FAISS ideal for real-time recommendation systems where speed and accuracy are crucial.
 
 ## Project Structure
 
