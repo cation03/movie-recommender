@@ -12,12 +12,10 @@ def load_preloaded_movies(json_path=JSON_PATH):
         movies = json.load(f)
     return movies
 
-# Optionally, load thumbnails as a list if needed
 def load_thumbnails(json_path=JSON_PATH):
     movies = load_preloaded_movies(json_path)
     thumbnails = [movie.get("thumbnail") for movie in movies if movie.get("thumbnail")]
     return thumbnails
 
-# You can export the loaded data for use in other modules:
 preloaded_movies = load_preloaded_movies()
 thumbnails = load_thumbnails()
