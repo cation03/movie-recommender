@@ -40,7 +40,7 @@ st.markdown(left_marquee_html + right_marquee_html, unsafe_allow_html=True)
 
 # --- Main Streamlit UI ---
 st.title("Dynamic Movie Recommendation System")
-st.write("Enter the name of a movie (not already in our database) to get recommendations based on storyline and genre similarity.")
+st.write("Enter the name of a movie to get recommendations based on storyline and genre similarity.")
 
 # Autocomplete input: When the user types at least 3 characters, fetch suggestions from TMDB.
 movie_query = st.text_input("Start typing a movie name:")
