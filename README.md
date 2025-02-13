@@ -42,7 +42,7 @@ movie-recommender/
 ├── config.yml # For constants like paths <br/>
 ├── requirements.txt # List of Python dependencies <br/>
 └── README.md # This file <br/>
-
+`
 ## Setup Instructions
 
 1. **Clone the Repository:**
